@@ -26,9 +26,160 @@ other damages arising out of this license or the buyer's use of the content.
 The content needs to stay within "stylish"*/
 
 /* Made By trigstur */
+.cijfers-k-grid.k-grid .grade.gemiddeldecolumn {
+    background-color: rgba(0, 0, 0, 0.89) !important;
+                           color: white;
+                           repeat: important
+}
+.k-grid-header .k-link:link, .k-grid-header .k-link:visited, .k-grid-header .k-nav-current.k-state-hover .k-link, .k-grouping-header .k-link {
+    color: #fff;
+}
+.cijfers-k-grid.k-grid .k-selectable .k-state-selected .grade {
+    box-shadow: inset 0 0 0 1px #ffffff;
+    width: 39px;
+    padding-left: 1px;
+    color: #ffffff;
+    color: #ffffff;
+}
+.cijfers-k-grid.k-grid .grade.empty {
+    display: block;
+    background: rgb(0, 0, 0) url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAGElEQVQImWO4evXqfwYoQGZjCBCWpJ5RAEVOKenK4yvqAAAAAElFTkSuQmCC) repeat !important;
+}
+html body .k-popup.k-list-container .k-item {
+    border: 1px solid #000000 !important;
+    margin-top: -1px;
+    line-height: 19px !important;
+    padding: 8px !important;
+    box-shadow: none !important;
+    background: white;
+                           repeat: important
+}
+div.loading-overlay {
+    position: absolute;
+    z-index: 890;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+}
+.k-list-container .k-item.k-state-focused.k-state-selected {
+    color: #2e2e2e;
+    background-color: rgba(0, 0, 0, 0.81);
+    background-image: none;
+    border: solid #e5e5e5;
+    border-width: 0 1px 1px 1px;
+    padding-top: 8px !important;
+    color: white;
+}
+.cijfers-k-grid.k-grid .k-grid-content td span {
+    display: block;
+    background: #1c1c1c;
+    color: white;
+                            repeat: important
+}
+.cijfers-k-grid.k-grid .grade.insufficient {
+    font-weight: bold;
+    color: #ff2300 !important;
+}
+.cijfers-k-grid.k-grid .k-grid-header th.k-header {
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    background: -moz-linear-gradient(top, #ffffff 0, #f2f2f2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffffff), color-stop(100%, #f2f2f2));
+    background: -webkit-linear-gradient(top, #ffffff 0, #f2f2f2 100%);
+    background: -o-linear-gradient(top, #ffffff 0, #f2f2f2 100%);
+    background: -ms-linear-gradient(top, #ffffff 0, #f2f2f2 100%);
+    background: linear-gradient(to bottom, #1c1c1c 0, #000000 100%);
+    color: white;
+}
 
-@import url("https://rawgit.com/TitanMusicDev/TMCss/master/Bot.css");
 
+
+
+
+
+
+
+
+
+
+
+.k-treeview .k-treeview-lines {
+    background: rgb(0, 0, 0) !important;
+}
+
+.k-treeview:hover .k-in.k-state-selected > a, .k-treeview .k-in.k-state-selected.k-state-focused > a, .k-treeview .k-in.k-state-selected .k-state-focused > a {
+    cursor: pointer;
+    background-image: none;
+    background: none;
+    background-color: #515151;
+    color: #ffffff;
+                            repeat: important
+}
+.main div.multi-columns.tri-columns .col:first-child {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 50%;
+}
+.menu a:hover, .menu .navTrigger:hover {
+    background-color: rgba(5, 39, 64, 0.88)!important;
+}
+.master-view.nav-toggle .menu li {
+    background: rgba(4, 32, 61, 0.82);
+}
+.menu ul ul {
+    position: absolute;
+    top: 4px;
+    right: -182px;
+    width: 186px;
+ background-color: rgba(5, 39, 64, 0.69)!important;
+    border: 1px solid #ffffff!important;
+    border-bottom: none;
+    z-index: 1001;
+    -moz-box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.5)!important;
+    -webkit-box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 0.5)!important;
+    box-shadow: 3px 3px 10px -5px rgb(9, 21, 42)!important;
+}
+.menu li {
+    position: relative;
+    clear: left;
+    height: 44px;
+    line-height: 44px;
+    color: rgb(255, 255, 255)!important;
+    font-size: 13px;
+    text-align: left;
+    cursor: alias !important;
+}
+.glyph.important:before {
+    content: "+";
+    color: #ffffff;
+    margin: 0;
+                             -webkit-transform: perspective(1px) translateZ(0);
+}
+.glyph.important:hover:before {
+        color: #ce2323;
+    margin: -1;
+}
+
+.msg-list a .attachment {
+    color: #d0c8c8;
+}
+
+table.table-grid-layout td a:hover {
+    color: #a9bbd0;
+}
+.header .logo > a {
+    color: rgba(242, 242, 242, 0);
+    background: url(https://image.ibb.co/hjgAPF/cooltext258300336140022.png);
+    padding-right: 164px;
+    background-size: 305px 37px -4px;
+    margin: 1px;
+    position: absolute;
+    top: -7px;
+    padding-bottom: -57px;
+    left: -8px;
+}
 table.table-grid-layout > tbody > tr.selected {
     background-color: rgba(0, 0, 0, 0.88);
 }
@@ -78,6 +229,7 @@ table.table-grid-layout td {
     color: #710096;
     text-decoration: underline;
 }
+
 .temp-details .temp-attachments:hover a {
     margin: 0 2px;
     color: #c000ff;
@@ -131,8 +283,6 @@ table.table-grid-layout td {
 }
 .primary-button:hover {
     color: #ffffff;
-    -moz-box-shadow: inset 0 0 0 2px #20b9ff, 1px 1px 2px -1px rgba(0, 0, 0, 0.7);
-    -webkit-box-shadow: inset 0 0 0 2px #20b9ff, 1px 1px 2px -1px rgba(0, 0, 0, 0.7);
 }
 .primary-button:hover {
     background: rgb(2, 7, 13);
@@ -217,15 +367,7 @@ table.table-grid-layout td {
     color: #281235;
     text-decoration: underline;
 }
-.primary-button {
-    background: #11a9ee;
-    background: -moz-linear-gradient(top, #11a9ee 0, #0096db 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #11a9ee), color-stop(100%, #0096db));
-    background: -webkit-linear-gradient(top, #11a9ee 0, #0096db 100%);
-    background: -o-linear-gradient(top, #11a9ee 0, #0096db 100%);
-    background: -ms-linear-gradient(top, #11a9ee 0, #0096db 100%);
-    background: linear-gradient(to bottom, #250226 0, #2d3356 100%);
-}
+
 .card .photo-high + .person-info {
     padding-left: 18px;
 }
@@ -759,8 +901,6 @@ aside .block .content
   right: 0;
   bottom: 0;
   background: #2098D1;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
   -webkit-transform-origin: 0 50%;
   transform-origin: 0 50%;
   -webkit-transition-property: transform;
@@ -1006,18 +1146,13 @@ aside .tabs li.active:after
                            border-color: #0000ff rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
                            top: 53px;
 }
-.header {
-    border: solid;
-    background-color: rgb(40, 23, 58)!Important;
-                           height: 100px!important;
-}
 .container-fluid {
     padding-right: 500px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     z-index: 100;
-    background: #26092d!important;
+    background: #111126!important;
 }
 .master-view
 {
@@ -1224,6 +1359,16 @@ fieldset label
                            -moz-box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.15);
                            -webkit-box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.15);
                            box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.15);
+}
+.text-icon[icon-type="error"] {
+    color: #000;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+}
+table.table-grid-layout tr:hover span.nrblock {
+    background-color: #000000;
+    color: white;
+    border: solid 1px;
 }
 .head-bar
 {
