@@ -1293,12 +1293,11 @@ element.style
                            height: 48px;
                            background-color: rgba(9, 19, 34, 0.72);
 }
-.header .header-user figure img,
-.header .user figure img
-{
-                           max-height: 32px;
-                           max-width: 0px;
-                           margin: 0 auto;
+.header .header-user figure img, .header .user figure img {
+    height: 32px;
+    width: 32px;
+    margin: 0 auto;
+    border-radius: 5px;
 }
 .photo-high .photo-placeholder,
 .photo.photo-high img
