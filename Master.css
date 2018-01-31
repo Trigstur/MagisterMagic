@@ -570,8 +570,8 @@ div.image-carrousel div {
     background-color: rgba(0, 0, 0, 0.78);
     border-left: 4px solid #ffffff;
 }
-#studiewijzer-detail-container .coloring-blauw > div, #studiewijzer-detail-container .coloring-blauw > ul {
-    background-color: rgba(0, 0, 0, 0.67);
+.clearfix.user-content {
+    background-color: rgba(0, 0, 0, 0.67) !important;
     border-left: 4px solid #fdfdfd;
 }
 .studiewijzer-onderdeel > div.block > div.content {
