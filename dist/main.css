@@ -1,0 +1,54 @@
+@-moz-document domain("magister.net") {
+/* Adjustable Variables */
+:root {
+    --chrome-background: #fff;
+    --primary-background: #1f97f9;
+    --secondary-background: #0683ea;
+    --background-1: #0099f6;
+    --background-2: #fff;
+    --background-3: #ccc;
+    --background-4: #434343;
+    --background-5: #fafafa;
+    --background-6: #333;
+    --background-7: #f2f2f2;
+    --background-8: #ccc;
+    --background-9: transparent;
+    --background-10: #005c86;
+    --background-11: #e1f4fd;
+    --primary-text-color: #1f97f9;
+    --secondary-text-color: #000;
+}
+.appbar-host{ 
+background: var(--primary-background)
+}
+.menu-host {
+    height: 100%;
+    left: -64px;
+    transition: height 2s linear 1s, width 2s linear 1s;
+}
+ .collapsed-menu {
+    min-width: 60px;
+    height: 78%;
+    transition: height 1s linear 1s, width 1s;
+}
+.head-bar div > a {
+    right: 4vw;
+    position: fixed
+}
+.dropdown-menu:hover {
+    position: fixed;
+    left: 94vw;
+}
+}
+
+@-moz-document domain("accounts.magister.net") {
+.splash-container {
+    display: none;
+}
+.bottom, .podium_container {
+    width: 100%;
+}
+.top img, .bottom  {
+    display: none;
+}
+}
