@@ -1,58 +1,92 @@
 @-moz-document domain("magister.net") {
 /* Copyright (c) 2017/2020 Trigstur */
 /* https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/LICENSE */
-
 /* Adjustable Variables */
-:root {
-    --chrome-background: #fff;
-    --primary-background: #1f97f9;
-    --secondary-background: #0683ea;
-    --background-1: #0099f6;
-    --background-2: #fff;
-    --background-3: #ccc;
-    --background-4: #434343;
-    --background-5: #fafafa;
-    --background-6: #333;
-    --background-7: #f2f2f2;
-    --background-8: #ccc;
-    --background-9: transparent;
-    --background-10: #005c86;
-    --background-11: #e1f4fd;
-    --primary-text-color: #1f97f9;
+:root
+{
+
+    --background-1: #007dd0;
+    /* Item Background */
+    --secondary-background: #004b7d;
+    /* Accent Color */
+    /* TODO : colors for the white area */
+    --background-main: red;
+    /* TODO */
+    --primary-text-main: red;
+    /* TODO */
+    --secondary-text: red;
+    /* TODO */
+    --primary-text-color: #004b7d;
+    /* Primary Color */
     --secondary-text-color: #000;
+    /* Secondary Color */
+    /* Do Not Touch - If you don't know what you are doing */
+    --chrome-background: var(--background-1);
+    --primary-background: var(--background-1);
+
+    --background-2: var(--background-1);
+    --background-3: var(--background-1);
+    --background-4: var(--background-1);
+    --background-5: var(--background-1);
+    --background-6: var(--background-1);
+    --background-7: var(--background-1);
+    --background-8: var(--background-1);
+
+    --background-9: transparent;
+
+    --background-10: var(--background-1);
+    --background-11: var(--background-1);
 }
+
 /**/
-.appbar-host{ 
-background: var(--primary-background)
+.appbar-host,
+.menu-footer
+{
+    background: var(--primary-background)
 }
-.menu-host {
+
+.menu-host
+{
     height: 100%;
     left: -64px;
-    transition: height 2s linear 1s, width 2s linear 1s;
+    transition: height 2s linear 1s, width 1s linear 1s;
 }
- .collapsed-menu {
+
+.collapsed-menu
+{
     min-width: 60px;
     height: 78%;
     transition: height 1s linear 1s, width 1s;
 }
-.head-bar div > a {
+
+.dropdown-menu > a
+{
     right: 4vw;
     position: fixed
 }
-.dropdown-menu:hover {
+
+.dropdown-menu:hover
+{
     position: fixed;
     left: 94vw;
 }
 }
 
 @-moz-document domain("accounts.magister.net") {
-.splash-container {
+.splash-container
+{
     display: none;
 }
-.bottom, .podium_container {
+
+.bottom,
+.podium_container
+{
     width: 100%;
 }
-.top img, .bottom  {
+
+.top img,
+.bottom
+{
     display: none;
 }
 }
