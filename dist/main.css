@@ -1,4 +1,7 @@
 @-moz-document domain("magister.net") {
+/* Copyright (c) 2017/2020 Trigstur */
+/* https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/LICENSE */
+
 /* Adjustable Variables */
 :root {
     --chrome-background: #fff;
@@ -18,6 +21,7 @@
     --primary-text-color: #1f97f9;
     --secondary-text-color: #000;
 }
+/**/
 .appbar-host{ 
 background: var(--primary-background)
 }
