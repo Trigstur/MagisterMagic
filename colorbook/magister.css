@@ -1,0 +1,27 @@
+:root {
+    --sidenav: #1f97f9;
+    /* Color Sidenav */
+    --altsidenav: #fff;
+    /* Sidenav Reversed */
+    
+    --box1: #fff;
+    /* Box Background */
+    --boxtxt1: #1f97f9;
+    /* Text on Box */
+    
+    --innerbox: #fff;
+    /*  Color InnerBox */
+    --altinnerbox: #434343;
+    /* Color Innerbox Reversed */
+    --innerborder: #ddd;
+    /* Color Inner Border */  
+    
+    --alert: #1f97f9;
+    /* Alert Color */
+    --altalert: #fff;
+    /* Alert Reversed Color */
+    
+    
+    --primary-background: var(--sidenav);
+    --secondary-background: var(--altsidenav);
+}
