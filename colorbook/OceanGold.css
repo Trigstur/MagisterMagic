@@ -1,0 +1,55 @@
+:root {
+    --bck1: #17242d;
+    /* Main Background */
+    --txt1: #fed766;
+    /* Text On Background */
+    --alttxt1: #041224;
+    /* Alternative Text On Background */
+    
+    --sidenav: #212d40;
+    /* Color Sidenav */
+    --altsidenav: #fed766;
+    /* Sidenav Reversed */
+   
+    --box1: #212d40;
+    /* Box Background */
+    --boxtxt1: #fff;
+    /* Text on Box */
+    
+    --innerbox: #212d40;
+    /*  Color InnerBox */
+    --altinnerbox: #fed766;
+    /* Color Innerbox Reversed */
+    --altinnerbox2: #ddd;  
+    /* Color Innerbox Alternative */
+    --innerborder: #17242d;
+    /* Color Inner Border */  
+    
+    --hovinnerbox: #000b21;
+    /* Hover Inner Box */
+    --althovinnerbox: #fed766;
+    /* Hover Inner Box Reversed */
+    
+    --innercontext: #17242d;
+    /* Inner Context */
+    --altinnercontext: #fff;
+    /* Inner Context Reversed */
+    
+    --alert: #fed766;
+    /* Alert Color */
+    --altalert: #2d3047;
+    /* Alert Reversed Color */
+
+    --btn1: #212d40;
+    /* Button */
+    --hovbtn1: #212d40;
+    /* Hover Button */
+    
+    --txtbtn1: #fff;
+    /* Text Button 1 */
+    --hovtxtbtn1: #fff;
+    /* Hover Text Button */
+    
+    --primary-background: var(--sidenav);
+    --secondary-background: var(--altsidenav);
+}
