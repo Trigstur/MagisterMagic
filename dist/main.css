@@ -2,6 +2,14 @@
 /* Copyright (c) 2017/2020 Trigstur */
 /* https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/LICENSE */
 /* ==> Main Misc <== */
+.menu-host .logo span::after
+{
+	content: "Magic";
+	font-size: 13px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 .master-view,
 .view,
 .main
@@ -115,6 +123,11 @@ aside div.content-container
 	background: var(--box1);
 }
 
+.asideTrigger.active
+{
+	border-color: var(--boxtxt1) !important;
+}
+
 .block h3,
 .tabs li a
 {
@@ -148,6 +161,16 @@ aside div.content-container
 }
 
 /* InnerBox */
+.block
+{
+	color: var(--altinnerbox);
+}
+
+fieldset label
+{
+	color: var(--altinnerbox2);
+}
+
 #afsprakenlijst-container .today
 {
 	color: var(--altinnerbox);
