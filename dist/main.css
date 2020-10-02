@@ -1,7 +1,11 @@
 @-moz-document domain("magister.net") {
 /* Copyright (c) 2017/2020 Trigstur */
 /* https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/LICENSE */
+    
 /* ==> Coloring Book <== */
+/* Alternative :roots (colorbooks) */
+/* https://github.com/Trigstur/MagisterMagic/tree/master/colorbook */
+    
 :root {
     --bck1: #17242d;
     /* Main Background */
@@ -13,31 +17,31 @@
     --sidenav: #212d40;
     /* Color Sidenav */
     --altsidenav: #fed766;
-    /* Reversed Color Sidenav */
+    /* Sidenav Reversed */
    
     --box1: #212d40;
-    /* Box 1 Background */
+    /* Box Background */
     --boxtxt1: #fff;
-    /* Text on Box 1 Background */
+    /* Text on Box */
     
     --innerbox: #212d40;
     /*  Color InnerBox */
     --altinnerbox: #fed766;
-    /* Reversed Color InnerBox */
+    /* Color Innerbox Reversed */
     --altinnerbox2: #ddd;  
     /* Color Innerbox Alternative */
     --innerborder: #17242d;
-    /* Main Inner Border */  
+    /* Color Inner Border */  
     
     --hovinnerbox: #000b21;
-    /* Inner Box Hover */
+    /* Hover Inner Box */
     --althovinnerbox: #fed766;
-    /* Reversed Inner Box Hover */
+    /* Hover Inner Box Reversed */
     
     --innercontext: #17242d;
-    /* Inner information */
+    /* Inner Context */
     --altinnercontext: #fff;
-    /* Reversed Inner information */
+    /* Inner Context Reversed */
     
     --alert: #fed766;
     /* Alert Color */
@@ -52,7 +56,7 @@
     --txtbtn1: #fff;
     /* Text Button 1 */
     --hovtxtbtn1: #fff;
-    /* Text Hover Button 1 */
+    /* Hover Text Button */
     
     --primary-background: var(--sidenav);
     --secondary-background: var(--altsidenav);
