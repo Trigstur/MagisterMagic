@@ -1,92 +1,270 @@
 @-moz-document domain("magister.net") {
 /* Copyright (c) 2017/2020 Trigstur */
 /* https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/LICENSE */
-/* Adjustable Variables */
-:root
+/* ==> Main Misc <== */
+.master-view,
+.view,
+.main
 {
-
-    --background-1: #007dd0;
-    /* Item Background */
-    --secondary-background: #004b7d;
-    /* Accent Color */
-    /* TODO : colors for the white area */
-    --background-main: red;
-    /* TODO */
-    --primary-text-main: red;
-    /* TODO */
-    --secondary-text: red;
-    /* TODO */
-    --primary-text-color: #004b7d;
-    /* Primary Color */
-    --secondary-text-color: #000;
-    /* Secondary Color */
-    /* Do Not Touch - If you don't know what you are doing */
-    --chrome-background: var(--background-1);
-    --primary-background: var(--background-1);
-
-    --background-2: var(--background-1);
-    --background-3: var(--background-1);
-    --background-4: var(--background-1);
-    --background-5: var(--background-1);
-    --background-6: var(--background-1);
-    --background-7: var(--background-1);
-    --background-8: var(--background-1);
-
-    --background-9: transparent;
-
-    --background-10: var(--background-1);
-    --background-11: var(--background-1);
+	transition: 1s;
 }
 
-/**/
-.appbar-host,
-.menu-footer
+/* ==> Background <== */
+body
 {
-    background: var(--primary-background)
+	background: var(--bck1);
+}
+
+/* ==> Text <== */
+h1
+{
+	color: var(--txt1);
+}
+
+h2
+{
+	color: var(--alttxt1);
+}
+
+/* ==> Better Sidenav <== */
+.collapsed-menu #faux-label
+{
+	color: var(--sidenav);
+	background: var(--altsidenav);
+}
+
+.main-menu li a,
+.menu-host .logo span,
+.menu-footer > a > i,
+.menu-footer a
+{
+	color: var(--altsidenav);
+}
+
+.menu-host .logo svg
+{
+	fill: var(--altsidenav);
+}
+
+.main-menu > li.active > a,
+.main-menu > li > a:hover
+{
+	background-color: var(--secondary-background);
+	border-radius: 6px;
+	color: var(--sidenav)
 }
 
 .menu-host
 {
-    height: 100%;
-    left: -64px;
-    transition: height 2s linear 1s, width 1s linear 1s;
+	height: 100%;
+	left: -64px;
+	transition: height 1s linear 1s, width 1s linear 1s;
+}
+
+.menu-footer,
+.appbar-host
+{
+	background: var(--sidenav);
+}
+
+.appbar > div > a,
+a.appbar-button
+{
+	background: var(--altsidenav);
+}
+
+.appbar > div > a i,
+.appbar-icon
+{
+	color: var(--sidenav);
 }
 
 .collapsed-menu
 {
-    min-width: 60px;
-    height: 78%;
-    transition: height 1s linear 1s, width 1s;
+	min-width: 60px;
+	height: 60%;
+	transition: height 1s linear 1s, width 1s linear;
 }
 
+.collapsed-menu:hover
+{
+	height: 100%;
+}
+
+/* ==> Button <== */
+.dna-btn-primary,
+.head-bar div > a.text-button
+{
+	background: var(--btn1);
+	color: var(--txtbtn1);
+	border: none
+}
+
+.dna-btn-primary:hover,
+.head-bar div > a.text-button
+{
+	background: var(--hovbtn1);
+	color: var(--hovtxtbtn1);
+	border: none
+}
+
+/* ==> Boxes <== */
+.block .content,
+aside div.content-container
+{
+	background: var(--box1);
+}
+
+.block h3,
+.tabs li a
+{
+	color: var(--boxtxt1);
+}
+
+.block h3
+{
+	border: none;
+	box-shadow: none;
+}
+
+.block,
+.endlink
+{
+	background: var(--box1);
+	border: none;
+}
+
+/* ==> FIX : Dropdown on page <== */
 .dropdown-menu > a
 {
-    right: 4vw;
-    position: fixed
+	right: 4vw;
+	position: fixed
 }
 
 .dropdown-menu:hover
 {
-    position: fixed;
-    left: 94vw;
+	position: fixed;
+	left: 94vw;
+}
+
+/* InnerBox */
+#afsprakenlijst-container .today
+{
+	color: var(--altinnerbox);
+}
+
+.widget li,
+#vandaag-container .grade-widget ul,
+.widget .agenda-list li a
+{
+	background: var(--innerbox);
+}
+
+.alert a:hover
+{
+	background: var(--altinnerbox) !important;
+}
+
+.widget .list li a:hover
+{
+	color: var(--innerbox);
+}
+
+.widget .list li a,
+.endlink a
+{
+	color: var(--altinnerbox);
+}
+
+/* ==> Alerts <== */
+.alert
+{
+	border-left: 4px solid var(--alert);
+}
+
+.alert span.nrblock
+{
+	background-color: var(--alert);
+	color: var(--altalert);
+}
+
+.widget .agenda-list li.alert span.time::after
+{
+	color: var(--alert) !important;
+}
+
+.widget .agenda-list li.alert span.time::before
+{
+	color: var(--altalert);
+	background: var(--alert);
+	padding: 2px;
+	border-radius: 5px;
+}
+
+/* ==> Misc <== */
+.head-bar div > a > i
+{
+	color: var(--txt1);
+	background: var(--alttxt1);
 }
 }
 
 @-moz-document domain("accounts.magister.net") {
-.splash-container
+/* ==> Center Login/Account <== */
+.splash-container,
+.top img,
+.bottom
 {
-    display: none;
+	display: none;
 }
 
 .bottom,
 .podium_container
 {
-    width: 100%;
+	width: 100%;
+}
 }
 
-.top img,
-.bottom
+@-moz-document domain("magister.net") {
+/* Coloring Book */
+:root
 {
-    display: none;
+
+	--bck1: #1c2419;
+	/* Main Background */
+	--txt1: #fff;
+	/* Text On Background */
+	--alttxt1: #ddd;
+	/* Alternative Text On Background */
+	--box1: #41543b;
+	/* Box 1 Background */
+	--boxtxt1: #fff;
+	/* Text on Box 1 Background */
+	--innerbox: #41543b;
+	/*  Color InnerBox */
+	--altinnerbox: #fff;
+	/* Reversed Color InnerBox */
+	--altinnerbox2: #ddd;
+	/* 2nd Reversed Color InnerBox */
+	--alert: #1c2419;
+	/* Alt Color */
+	--altalert: #fff;
+	/* Alt Reversed Color */
+	--sidenav: #fff;
+	/* Color Sidenav */
+	--primary-background: var(--sidenav);
+
+	--altsidenav: #41543b;
+	/* Reversed Color Sidenav */
+	--secondary-background: var(--altsidenav);
+
+	--btn1: #41543b;
+	/* Background Button 1 */
+	--hovbtn1: #386641;
+	/* Background Hover Button 1 */
+	--txtbtn1: #fff;
+	/* Text Button 1 */
+	--hovtxtbtn1: #fff;
+	/* Text Hover Button 1 */
 }
 }
