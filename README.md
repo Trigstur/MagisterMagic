@@ -1,7 +1,8 @@
 # Magister Magic
 
 [![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/dist/main.user.css)
-[![Install directly with Stylus](https://img.shields.io/github/license/Trigstur/MagisterMagic)](https://github.com/Trigstur/MagisterMagic/blob/master/LICENSE)
+[![Legal](https://img.shields.io/github/license/Trigstur/MagisterMagic)](https://github.com/Trigstur/MagisterMagic/blob/master/LICENSE)
+![Size](https://img.shields.io/github/repo-size/Trigstur/MagisterMagic)
 
 ### " providing magic since 2017 "
 
