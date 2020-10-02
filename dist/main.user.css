@@ -7,7 +7,13 @@
 @version      0.0.2
 @license      AGPLv3
 @preprocessor default
+
 @var color bck1 "Main Background" #17242d
+@var color txt1 "Text On Background" #fed766
+@var color alttxt "Alternative Text On Background" #041224
+
+@var color box1 "Box 1 Background" #212d40
+@var color boxtxt1 "Text on Box 1 Background" #fff
 
 ==/UserStyle== */
 
