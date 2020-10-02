@@ -41,7 +41,7 @@
 
 ==/UserStyle== */
 
-
+@-moz-document domain("magister.net") {
 /* ==> Main Misc <== */
 .menu-host .logo span::after {
     content: "Magic";
@@ -418,4 +418,5 @@ fieldset .radio input[type="radio"]:checked ~ label {
 .bottom,
 .podium_container {
     width: 100%;
+}
 }
