@@ -24,7 +24,7 @@ The future of magister? Ish :)
 
 [!] We recommend [stylus](https://github.com/openstyles/stylus) 
 ### Stylus
-
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg?style=for-the-badge)](https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/dist/main.user.css)
 - Install the [stylus extension](https://github.com/openstyles/stylus/wiki/Stylish-alternatives)
 - Open [this link](https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/dist/main.user.css)
 - enjoy
