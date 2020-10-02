@@ -42,6 +42,11 @@
 ==/UserStyle== */
 
 @-moz-document domain("magister.net") {
+:root {
+    --primary-background: var(--sidenav);
+    --secondary-background: var(--altsidenav);
+}  
+    
 /* ==> Main Misc <== */
 .menu-host .logo span::after {
     content: "Magic";
