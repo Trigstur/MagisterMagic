@@ -9,43 +9,53 @@
     /* Text On Background */
     --alttxt1: #041224;
     /* Alternative Text On Background */
+    
+    --sidenav: #212d40;
+    /* Color Sidenav */
+    --altsidenav: #fed766;
+    /* Reversed Color Sidenav */
+   
     --box1: #212d40;
     /* Box 1 Background */
     --boxtxt1: #fff;
     /* Text on Box 1 Background */
+    
     --innerbox: #212d40;
     /*  Color InnerBox */
+    --altinnerbox: #fed766;
+    /* Reversed Color InnerBox */
+    --altinnerbox2: #ddd;  
+    /* Color Innerbox Alternative */
+    --innerborder: #17242d;
+    /* Main Inner Border */  
+    
     --hovinnerbox: #000b21;
     /* Inner Box Hover */
     --althovinnerbox: #fed766;
     /* Reversed Inner Box Hover */
-    --altinnerbox: #fed766;
-    /* Reversed Color InnerBox */
-    --altinnerbox2: #ddd;
-    --innerborder: #17242d;
-    /* Main Inner Border */
+    
     --innercontext: #17242d;
     /* Inner information */
     --altinnercontext: #fff;
     /* Reversed Inner information */
+    
     --alert: #fed766;
     /* Alert Color */
     --altalert: #2d3047;
     /* Alert Reversed Color */
-    --sidenav: #212d40;
-    /* Color Sidenav */
-    --primary-background: var(--sidenav);
-    --altsidenav: #fed766;
-    /* Reversed Color Sidenav */
-    --secondary-background: var(--altsidenav);
+
     --btn1: #212d40;
-    /* Background Button 1 */
+    /* Button */
     --hovbtn1: #212d40;
-    /* Background Hover Button 1 */
+    /* Hover Button */
+    
     --txtbtn1: #fff;
     /* Text Button 1 */
     --hovtxtbtn1: #fff;
     /* Text Hover Button 1 */
+    
+    --primary-background: var(--sidenav);
+    --secondary-background: var(--altsidenav);
 }
 
 
