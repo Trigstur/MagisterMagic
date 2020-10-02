@@ -38,7 +38,7 @@ The future of magister? Ish :)
 ## Customisation
 
 ### Stylus
-1. Manage colors by traveling to magister and selecting the extension (click the gear)
+1. Manage colors by traveling to magister => and selecting the extension => click the gear at Magister Magic
 2. go to [/colorbook](https://github.com/Trigstur/MagisterMagic/tree/master/colorbook) for inspiration
 
 ### Stylish 
