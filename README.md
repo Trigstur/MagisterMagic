@@ -24,7 +24,7 @@ The future of magister? Ish :)
 [!] We recommend [stylus](https://github.com/openstyles/stylus) 
 ### Stylus
 
-- Install the [stylus extension](https://github.com/openstyles/stylus)
+- Install the [stylus extension](https://github.com/openstyles/stylus/wiki/Stylish-alternatives)
 - Open [this link](https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/dist/main.user.css)
 - enjoy
 
