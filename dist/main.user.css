@@ -12,58 +12,34 @@
 @var color txt1 "Text On Background" #fed766
 @var color alttxt "Alternative Text On Background" #041224
 
-@var color box1 "Box 1 Background" #212d40
-@var color boxtxt1 "Text on Box 1 Background" #fff
+@var color sidenav "Sidenav" #212d40
+@var color altsidenav "Sidenav Reversed" #fed766
+
+
+@var color box1 "Box Background" #212d40
+@var color boxtxt1 "Text on Box" #fff
+
+@var color innerbox "Color Innerbox" #212d40
+@var color altinnerbox "Color Innerbox Reversed" #fed766
+@var color altinnerbox2 "Color Innerbox Alternative" #ddd
+@var color innerborder "Color Inner Border" #17242d
+
+@var color hovinnerbox "Hover Inner Box" #000b21
+@var color althovinnerbox "Hover Inner Box Reversed" #fed766
+
+@var color innercontext "Inner Context" #17242d
+@var color altinnercontext "Inner Context Reversed" #fff
+
+@var color alert "Alert Color" #fed766
+@var color altalert "Alert Reversed Color" #2d3047
+
+@var color btn1 "Button" #212d40
+@var color hovbtn1 "Hover Button" #212d40
+
+@var color txtbtn1 "Text Button" #fff
+@var color hovtxtbtn1 "Hover Text Button" #fff
 
 ==/UserStyle== */
-
-@-moz-document domain("magister.net") {
-/* Copyright (c) 2017/2020 Trigstur */
-/* https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/LICENSE */
-/* ==> Coloring Book <== */
-:root {
-    --txt1: #fed766;
-    /* Text On Background */
-    --alttxt1: #041224;
-    /* Alternative Text On Background */
-    --box1: #212d40;
-    /* Box 1 Background */
-    --boxtxt1: #fff;
-    /* Text on Box 1 Background */
-    --innerbox: #212d40;
-    /*  Color InnerBox */
-    --hovinnerbox: #000b21;
-    /* Inner Box Hover */
-    --althovinnerbox: #fed766;
-    /* Reversed Inner Box Hover */
-    --altinnerbox: #fed766;
-    /* Reversed Color InnerBox */
-    --altinnerbox2: #ddd;
-    --innerborder: #17242d;
-    /* Main Inner Border */
-    --innercontext: #17242d;
-    /* Inner information */
-    --altinnercontext: #fff;
-    /* Reversed Inner information */
-    --alert: #fed766;
-    /* Alert Color */
-    --altalert: #2d3047;
-    /* Alert Reversed Color */
-    --sidenav: #212d40;
-    /* Color Sidenav */
-    --primary-background: var(--sidenav);
-    --altsidenav: #fed766;
-    /* Reversed Color Sidenav */
-    --secondary-background: var(--altsidenav);
-    --btn1: #212d40;
-    /* Background Button 1 */
-    --hovbtn1: #212d40;
-    /* Background Hover Button 1 */
-    --txtbtn1: #fff;
-    /* Text Button 1 */
-    --hovtxtbtn1: #fff;
-    /* Text Hover Button 1 */
-}
 
 
 /* ==> Main Misc <== */
