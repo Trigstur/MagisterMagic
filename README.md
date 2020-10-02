@@ -35,7 +35,14 @@ The future of magister? Ish :)
 - Follow the instructions on the site
 - Enjoy
 
-#### TODO
+## Customisation
 
-1. Finish/Finalize all pages (css)
-2. Create more pre made css books (variable examples) (customisation)
+### Stylus
+1. Manage colors by traveling to magister and selecting the extension (click the gear)
+2. go to [/colorbook](https://github.com/Trigstur/MagisterMagic/tree/master/colorbook) for inspiration
+
+### Stylish 
+1. go to [/colorbook](https://github.com/Trigstur/MagisterMagic/tree/master/colorbook) and pick a color style.
+2. replace the root with yours 
+
+*Feel free to sumbit your own customised root*
