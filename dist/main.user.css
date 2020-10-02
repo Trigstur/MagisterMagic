@@ -1,9 +1,14 @@
 /* ==UserStyle==
 @name         Magister Magic
-@namespace    github.com/openstyles/stylus
+@author       Trigstur <info@trigstur.nl> (https://trigstur.nl)
+@homepageURL  https://github.com/Trigstur/MagisterMagic
+@supportURL   https://github.com/Trigstur/MagisterMagice/issues
+@namespace    github.com/Trigstur/MagisterMagic
 @version      0.0.2
-@license      No Redistribution
+@license      AGPLv3
 @preprocessor default
+@var color bck1 "Main Background" #17242d
+
 ==/UserStyle== */
 
 @-moz-document domain("magister.net") {
@@ -11,8 +16,6 @@
 /* https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/LICENSE */
 /* ==> Coloring Book <== */
 :root {
-    --bck1: #17242d;
-    /* Main Background */
     --txt1: #fed766;
     /* Text On Background */
     --alttxt1: #041224;
