@@ -5,6 +5,7 @@
 ![Size](https://img.shields.io/github/repo-size/Trigstur/MagisterMagic)
 
 ### " providing magic since 2017 "
+Stylesheet intended for ```*.magister.net```
 
 We have been providing awesome styles/css for magister since 2017, and although that is great and all we noticed Iddink decided to change up their website.
 Causing all of the amazing styles that were created to disappear. Luckily! We are not backing down!
