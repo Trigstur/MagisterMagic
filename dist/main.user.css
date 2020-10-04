@@ -42,14 +42,13 @@
 ==/UserStyle== */
 
 @-moz-document domain("magister.net") {
-/* Copyright (c) 2017/2020 Trigstur */
-/* https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/LICENSE */    
-    
 :root {
     --primary-background: var(--sidenav);
     --secondary-background: var(--altsidenav);
 }  
-
+/* Copyright (c) 2017/2020 Trigstur */
+/* https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/LICENSE */
+    
 /* ==> Main Misc <== */
 .menu-host .logo span::after {
     content: "Magic";
