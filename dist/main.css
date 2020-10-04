@@ -1,7 +1,4 @@
 @-moz-document domain("magister.net") {
-/* Copyright (c) 2017/2020 Trigstur */
-/* https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/LICENSE */
-    
 /* ==> Coloring Book <== */
 /* Alternative :root (colorbooks) at */
 /* https://github.com/Trigstur/MagisterMagic/tree/master/colorbook */
@@ -61,7 +58,9 @@
     --primary-background: var(--sidenav);
     --secondary-background: var(--altsidenav);
 }
-
+/* Copyright (c) 2017/2020 Trigstur */
+/* https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/LICENSE */
+    
 /* ==> Main Misc <== */
 .menu-host .logo span::after {
     content: "Magic";
