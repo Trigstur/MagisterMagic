@@ -49,8 +49,6 @@
     --primary-background: var(--sidenav);
     --secondary-background: var(--altsidenav);
 }  
-    
-/* Code Starts Here */
 
 /* ==> Main Misc <== */
 .menu-host .logo span::after {
