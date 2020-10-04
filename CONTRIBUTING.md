@@ -15,7 +15,7 @@ display: none;
 }
 ```
 4. Updates should be put at the bottom of the css (including its comments) and synced across all [distribution files](https://github.com/Trigstur/MagisterMagic/tree/master/dist) (at the same spot)
-5. Ensure that all colours are defined by a (existing) variable  
+5. Ensure that all colors are defined by a (existing) variable  
 6. Pull your fork, please provide a description
 7. Await curation
 
