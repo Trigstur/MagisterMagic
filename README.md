@@ -46,4 +46,4 @@ The future of magister? Ish :)
 1. go to [/colorbook](https://github.com/Trigstur/MagisterMagic/tree/master/colorbook) and pick a color style.
 2. replace the root with yours 
 
-*Feel free to sumbit your own customised root*
+*Feel free to [sumbit](https://github.com/Trigstur/MagisterMagic/blob/master/CONTRIBUTING.md) your own customised root*
