@@ -13,6 +13,8 @@ Causing all of the amazing styles that were created to disappear. Luckily! We ar
 Introducing **Magister Magic 2020** 
 The future of magister? Ish :)
 
+MagisterMagic provides field leading magister stylesheelts, and colorsheets. For anyone, anywhere. [Contribute](https://github.com/Trigstur/MagisterMagic/blob/master/CONTRIBUTING.md) now and join the Magister Stylesheet Revolution!
+
 #### Including the following:
 
 - A more clean look 
