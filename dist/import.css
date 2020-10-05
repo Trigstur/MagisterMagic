@@ -1,6 +1,6 @@
 /* Copyright (c) 2017/2020 Trigstur */
 /* https://raw.githubusercontent.com/Trigstur/MagisterMagic/master/LICENSE */
-
+    
 /* ==> Main Misc <== */
 .menu-host .logo span::after {
     content: "Magic";
@@ -172,8 +172,18 @@ aside div.content-container {
 .view {
     width: 80%;
 }
+    
+/* ==> Bad Grades <==*/
+    .cijfers-k-grid.k-grid .grade.gemiddeldecolumn {
+    background-color: #1521159c!important;
+    color: #b6ffbb !important;
+}
+[role=gridcell] span.grade.herkansingKolom.insufficient {
+    color: #ff9c9c !important;
+    background: #60000063 !important;
+}
 
-/* InnerBox */
+/* ==> InnerBox <== */
 .sm-grid.k-grid .k-grid-content tr.k-state-selected,
 .sm-grid.k-grid .k-grid-content tr.k-state-selected.k-state-focused,
 .sm-grid.k-grid .k-grid-content tr.k-state-selected .k-state-focused,
@@ -181,14 +191,26 @@ aside div.content-container {
 .sm-grid.k-grid .k-grid-content tr,
 .rest-column,
 .widget li,
+    .cijfers-k-grid.k-grid .grade.herkansingKolom.heeftonderliggendekolommen,
 .k-dropdown-wrap.k-state-default,
-.k-dropdown-wrap.k-state-default:hover {
+.k-dropdown-wrap.k-state-default:hover,
+ .k-multiselect-wrap.k-floatwrap,
+div.fancy-select .k-multiselect .k-multiselect-wrap li.k-button:hover, div.fancy-select .k-multiselect .k-multiselect-wrap li.k-button.k-state-hover,
+.k-multiselect .k-button,
+    #cijfers-container .main div.content-container-cijfers.collapsed-menu, .k-animation-container, .k-widget, .k-widget *, .k-animation-container *, .k-widget *:before, .k-animation-container *:after, .k-block .k-header, .k-list-container
+{
     background: var(--innerbox) !important;
     color: var(--altinnerbox)
 }
-
+        div.fancy-select .k-multiselect .k-multiselect-wrap li.k-button:hover, div.fancy-select .k-multiselect .k-multiselect-wrap li.k-button.k-state-hover {
+            border-color: white;
+    }
+.cijfers-k-grid.k-grid .grade.herkansingKolom {
+    background: var(--innerbox) !important;
+    color: var(--altinnerbox);
+}
 .sources li li {
-    background: var(--box1);
+    background: var(--altinnerbox);
 }
 
 .block,
@@ -377,4 +399,5 @@ fieldset .radio input[type="radio"]:checked ~ label {
 .bottom,
 .podium_container {
     width: 100%;
+    }
 }
